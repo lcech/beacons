@@ -1,1 +1,55 @@
-a,body,div,html,li,span,ul{border:0 none;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0 none;padding:0;vertical-align:baseline}body,html{min-height:100%}html{overflow-y:scroll}a{color:#2b82ad;text-decoration:none}a:hover{color:#3aa9e9;text-decoration:none}body{color:#000;font-family:Consolas,monospace;font-size:1em;padding:2em 2em 4em 2em}@media (min-width:1000px){main{max-width:1000px}}h1,h2,h3,h4,h5,h6{border:0 none;font-family:inherit;font-style:inherit;font-weight:inherit;text-shadow:1px 1px 0 Gray;vertical-align:baseline}main h2,main h3{margin-top:3rem}#service-icons li.service-icon{float:left;height:32px;list-style-type:none;margin:0 8px 8px 0;width:32px}#service-icons a{background-position:50% 50%;background-repeat:no-repeat;background-image:url(css/ico/ico_sprite.png);display:block;font-style:normal;font-weight:400;height:32px;padding-left:0;position:relative;text-indent:-3000px;width:32px}#service-icons a:hover .service-icon-overlay{background-color:rgba(0,0,0,.5);border:1px solid #fff;border-radius:4px 4px 4px 4px;display:block;height:32px;left:0;margin-left:-1px;margin-top:-1px;position:absolute;top:0;width:32px}#service-icons a.linkedin{background-position:-10px -10px}#service-icons a.twitter{background-position:-10px -62px}#service-icons a.facebook{background-position:-10px -114px}#service-icons a.googleplus{background-position:-10px -166px}#service-icons a.foursquare{background-position:-10px -218px}#service-icons a.flickr{background-position:-10px -270px}#service-icons a.pinterest{background-position:-10px -322px}#service-icons a.wordpress{background-position:-10px -374px}#service-icons a.posterous{background-position:-10px -426px}#service-icons a.slideshare{background-position:-10px -478px}ul.inline{padding:0;margin:0 0 0 -10px;list-style:none;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:left;-ms-flex-pack:left;justify-content:left}a.social-link{padding:0;margin:12.5px;width:36px;height:36px;font-size:30px;line-height:36px;cursor:pointer;display:block;-webkit-font-smoothing:antialiased;color:rgba(54,71,78,.7)}#cookieConsent{background-color:rgba(20,20,20,.8);min-height:26px;font-size:14px;color:#ccc;line-height:26px;padding:8px 0 8px 30px;position:fixed;bottom:0;left:0;right:0;display:none;z-index:9999}#cookieConsent a{color:#4b8ee7;text-decoration:none}#closeCookieConsent{float:right;display:inline-block;cursor:pointer;height:20px;width:20px;margin:-15px 0 0 0;font-weight:700}#closeCookieConsent:hover{color:#fff}#cookieConsentButtons{float:right}a.cookieConsentOK{background-color:#f1d600;color:#000;display:inline-block;border-radius:5px;padding:0 20px;cursor:pointer;margin:0 60px 0 10px}a.cookieConsentNotOK{background-color:silver;color:#000;display:inline-block;border-radius:5px;padding:0 20px;cursor:pointer;margin:0 60px 0 10px}a.cookieConsentOK:hover{background-color:#e0c91f}
+html, body, div, span, a, ul, li {
+	border: 0 none;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0 none;
+	padding: 0;
+	vertical-align: baseline;
+}
+html, body {
+	min-height: 100%;
+}
+html {
+  overflow-y: scroll;
+}
+a {
+	color: #2B82AD;
+	text-decoration: none;
+}
+a:hover {
+	color: #3AA9E9;
+	text-decoration: none;
+}
+body {
+	/*background: #FFF url('img/lukas-cb.jpg') no-repeat 0 -200px;*/
+	color: #000000;
+	font-family: Consolas, monospace;
+	font-size: 1em;
+	padding: 2em 2em 4em 2em;
+}
+li {
+  list-style-position: inside;
+}
+ul ul li {
+  margin-left: 2em;
+}
+@media (min-width: 1000px) {
+	main {
+		max-width: 1000px;
+	}
+}
+h1, h2, h3, h4, h5, h6 {
+	border: 0 none;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	text-shadow: 1px 1px 0 Gray;
+	vertical-align: baseline;
+}
+main h2, main h3 {
+	margin-top: 3rem;
+}
+
