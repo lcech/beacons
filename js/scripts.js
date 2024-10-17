@@ -2,15 +2,14 @@
 var tokens;
 
 tokens = [
-  {name: 'adformAccountId', defaultValue: '255332'},
+  {name: 'adformAccountId'},
   {name: 'adformPageName'},
-  {name: 'adsConversionName'},
-  {name: 'adwordsPixelName'},
-  {name: 'adwordsConversionId', defaultValue: '1035845248'},
-  {name: 'adwordsConversionLabel'},
-  {name: 'facebookAccountId', defaultValue: '525188704323598'},
-  {name: 'facebookPageName', defaultValue: 'PageView'},
-  {name: 'sklikRetargetingId', defaultValue: '13604'},
+  {name: 'googleAdsConversionName'},
+  {name: 'googleAdsConversionId'},
+  {name: 'googleAdsConversionLabel'},
+  {name: 'facebookAccountId'},
+  {name: 'facebookPageName'},
+  {name: 'sklikRetargetingId'},
   {name: 'sklikConversionId'},
 ];
 
